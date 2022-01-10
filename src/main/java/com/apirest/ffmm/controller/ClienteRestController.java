@@ -44,7 +44,7 @@ public class ClienteRestController {
 
 			List<String> errors = result.getFieldErrors()
 					.stream()
-					.map(err -> "El campo '" + err.getField() +"' "+ err.getDefaultMessage())
+					.map(err -> "El campoooo '" + err.getField() +"' "+ err.getDefaultMessage())
 					.collect(Collectors.toList());
 			
 			response.put("errors", errors);
